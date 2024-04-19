@@ -64,11 +64,11 @@ session_start();
 		<div class="navbar navbar-inverse">
 			<div class="navbar-inner">
 				<div class="container" >
-				<a class="brand" href="index.php" >HOME</a>
-				<a class="brand" href="train.php" >FIND TRAIN</a>
-				<a class="brand" href="reservation.php">RESERVATION</a>
-				<a class="brand" href="profile.php">PROFILE</a>
-				<a class="brand" href="booking.php">BOOKING HISTORY</a>
+					<a class="brand" href="index.php" >HOME</a>
+					<a class="brand" href="train.php" >FIND TRAIN</a>
+					<a class="brand" href="reservation.php">RESERVATION</a>
+					<a class="brand" href="profile.php">PROFILE</a>
+					<a class="brand" href="booking.php">BOOKING HISTORY</a>
 				</div>
 			</div>
 		</div>
@@ -76,13 +76,13 @@ session_start();
 			<!-- Photos slider -->
 			<div id="myCarousel" class="carousel slide" style="width:600px; float:left;margin-bottom:3px;">		
 				<div class="carousel-inner">
-				<div class="active item"><img src="images/modi.png" style="width:600px;height:350px;"/></div>
-				<div class="item"><img src="images/train1.avif" style="width:600px;height:350px;"/> </div>
-				<div class="item"><img src="images/train2.avif" style="width:600px;height:350px;"/></div>
-				<!-- <div class="item"><img src="images/9.jpg" style="width:600px;height:350px;"/></div>
-				<div class="item"><img src="images/10.jpg" style="width:600px;height:350px;"/> </div>
-				<div class="item"><img src="images/11.png"style="width:600px;height:350px;"/></div>
-				 -->
+					<div class="active item"><img src="images/modi.png" style="width:600px;height:350px;"/></div>
+					<div class="item"><img src="images/train1.avif" style="width:600px;height:350px;"/> </div>
+					<div class="item"><img src="images/train2.avif" style="width:600px;height:350px;"/></div>
+					<!-- <div class="item"><img src="images/9.jpg" style="width:600px;height:350px;"/></div>
+					<div class="item"><img src="images/10.jpg" style="width:600px;height:350px;"/> </div>
+					<div class="item"><img src="images/11.png"style="width:600px;height:350px;"/></div>
+					 -->
 				</div>
 				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -106,14 +106,12 @@ session_start();
 <footer >
 		<div style="width:100%;">
 			<div style="float:right;">
-			<p class="text-right text-info">	Desinged By : Nitesh, Piyush & Nikhil</p>
-			<p class="text-right text-info">  &copy; 2024 Copyright PVT Ltd.</p>	
-			</div>
-			<div style="float:right;">
-			
+				<p class="text-right text-info">Desinged By : Nitesh, Piyush & Nikhil</p>
+				<p class="text-right text-info">  &copy; 2024 Copyright PVT Ltd.</p>	
 			</div>
 		</div>
-		</footer>	</div>
+</footer>	
+</div>
 	
 </body>
 </html>
