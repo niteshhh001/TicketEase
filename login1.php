@@ -43,7 +43,7 @@ session_start();
 			</div>		
 			<div>
 			<div id="heading">
-				<a href="index.html">TicketEase</a>
+				<a href="index.html">TicketEase!</a>
 			</div>
 			</div>
 		</div>
