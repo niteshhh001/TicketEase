@@ -91,7 +91,7 @@ session_start();
 			<div class="news" Style="float:right;">
     <marquee behavior="scroll" id="marq" scrollamount=3 direction="up" height="294px" onmouseover="nestop()" onmouseout="nestrt()">
         <div>
-            <p><b>Vande Bharat train is running late.</b></p></br>
+            <p><b>Vande Bharat train is running on time.</b></p></br>
             <p><b>Now you can book your tickets on TicketEase.in.</b></p></br>
             <p><b>For more information, go to <a href="https://www.irctc.co.in/nget/train-search">TicketEase.in</a></b></p>
             <p><b>Indian Railways introduces new safety measures for passengers.</b></p></br>
@@ -105,11 +105,12 @@ session_start();
 		<!-- Copyright -->
 <footer >
 		<div style="width:100%;">
-			<div style="float:left;">
+			<div style="float:right;">
+			<p class="text-right text-info">	Desinged By : Nitesh, Piyush & Nikhil</p>
 			<p class="text-right text-info">  &copy; 2024 Copyright PVT Ltd.</p>	
 			</div>
 			<div style="float:right;">
-			<p class="text-right text-info">	Desinged By : Nitesh,Piyush & Nikhil</p>
+			
 			</div>
 		</div>
 		</footer>	</div>
