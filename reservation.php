@@ -89,7 +89,7 @@ else if((!isset($_POST['from'])) && (!isset($_POST['to'])))
 			
 			</div>
 			<div id="heading">
-				<a href="index.php" >Indian Railways</a>
+				<a href="index.php" >TicketEase!</a>
 			</div>
 			</div>
 		</div>
