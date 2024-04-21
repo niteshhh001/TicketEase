@@ -22,7 +22,7 @@ mysqli_select_db($conn,"$db_name") or die("cannot select db");
 	<!DOCTYPE html>
 <html>
 <head>
-	<title> Reservation </title>
+	<title> ViewFullStatus </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,7 +64,7 @@ mysqli_select_db($conn,"$db_name") or die("cannot select db");
 			
 			</div>
 			<div id="heading">
-				<a href="index.php">Indian Railways</a>
+				<a href="index.php">TicketEase!</a>
 			</div>
 			</div>
 		</div>
@@ -76,7 +76,7 @@ mysqli_select_db($conn,"$db_name") or die("cannot select db");
 				<a class="brand" href="train.php" >FIND TRAIN</a>
 				<a class="brand" href="reservation.php">RESERVATION</a>
 				<a class="brand" href="profile.php">PROFILE</a>
-				<a class="brand" href="booking.php">BOOKING HISTORY</a>
+				<!-- <a class="brand" href="booking.php">BOOKING HISTORY</a> -->
 				</div>
 			</div>
 		</div>
