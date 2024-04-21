@@ -1,11 +1,10 @@
 <?php
 session_start();
-
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Login </title>
+	<title> Login1 </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,12 +37,12 @@ session_start();
 	<div class="wrap">
 		<!-- Header -->
 		<div class="header">
-			<div style="float:left;width:150px;">
+			<div style="float:left;width:150px;position:relative">
 				<img src="images/logo.jpg"/>
 			</div>		
 			<div>
 			<div id="heading">
-				<a href="index.html">TicketEase!</a>
+				<a href="index.html" style="float:center">TicketEase!</a>
 			</div>
 			</div>
 		</div>
@@ -75,11 +74,10 @@ session_start();
 			 {
 				//echo "hilgr";
 		?>
-				<div class="alert alert-error"><font size="5"> Please Login First..</font> 
-				</div>
+				<div class="alert alert-error"; style="font-size:5"> Please Login First.. </div>
 		<?php	 }
 			}
-			//else{ echo "hi";}
+			// else{ echo "hi";}
 		?>
 			<br />
 			<br />
@@ -94,17 +92,17 @@ session_start();
 			</tr>
 			<tr >
 			<td style="border-top:0px;"> <label>Password</label></td>
-			<td style="border-top:0px;"><input type="password" name="psd" class="input-block-level" placeholder="password"></td>
+			<td style="border-top:0px;"><input type="password" name="psd" class="input-block-level" placeholder="Password"></td>
 			</tr>
 			<tr>
-			<td colspan=2 style="border-top:0px; visibility:hidden;" id="wrong"  class="label label-important">Username and Password Wrong !!!</td>
+			<td colspan=2 style="border-top:0px; visibility:hidden;" id="wrong"  class="label label-important">Username or Password is incorrect!!!</td>
 			</tr>
 			<tr>
 			<td style="border-top:0px;"></td>
 			<td style="border-top:0px;"> <input class="btn btn-info" type="submit" value="Login"></td>
 			</tr>
 			<tr>
-			<td colspan="2" style="border-top:0px;"> <p>  You don't have register?</p></td>
+			<td colspan="2" style="border-top:0px; text-align:center"> <p>Didn't signed up?</p></td>
 			</tr>
 			<tr>
 			<td style="border-top:0px;"></td>
@@ -131,11 +129,10 @@ session_start();
 </body>
 </html>
 <?php
-if(isset($_SESSION['error']))
-{
-if($_SESSION['error']==1)
-echo "<script>document.getElementById(\"wrong\").style.visibility=\"\";</script>";
-session_destroy();
+if(isset($_SESSION['error'])){
+	if($_SESSION['error']==1)
+		echo "<script>document.getElementById(\"wrong\").style.visibility=\"\";</script>";
+	session_destroy();
 }
 
 ?>	
