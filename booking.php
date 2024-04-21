@@ -1,12 +1,9 @@
 <?php
-
-
 session_start();
 require('firstimport.php');
 if(isset($_SESSION['name'])){}
 	else{
 		header("location:login1.php");
-		
 	}
 $tbl_name="booking";
 
