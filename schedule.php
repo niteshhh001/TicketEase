@@ -1,4 +1,3 @@
-
 <?php
 
 require('firstimport.php');
@@ -17,7 +16,7 @@ $result=mysql_query($sql);
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Indian Railways </title>
+	<title> schedule </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,7 +51,7 @@ $result=mysql_query($sql);
 				<img src="images/logo.jpg"/>
 			</div>
 			<div id="heading">
-				<a href="index.html">Indian Railways</a>
+				<a href="index.html">TicketEase!</a>
 			</div>
 		</div>
 		<!-- Navigation bar -->
@@ -63,7 +62,7 @@ $result=mysql_query($sql);
 				<a class="brand" href="train.php" >FIND TRAIN</a>
 				<a class="brand" href="schedule.html">SCHEDULE</a>
 				<a class="brand" href="reservation.php">RESERVATION</a>
-				<a class="brand" href="booking.php">BOOKING HISTORY</a>
+				<!-- <a class="brand" href="booking.php">BOOKING HISTORY</a> -->
 				</div>
 			</div>
 		</div>
