@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Registration </title>
+	<title> signup </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
