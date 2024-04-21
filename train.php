@@ -37,7 +37,7 @@ else if((!isset($_POST['byname'])) && (!isset($_POST['bynum'])))
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Find Train </title>
+	<title> train </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -80,7 +80,7 @@ else if((!isset($_POST['byname'])) && (!isset($_POST['bynum'])))
 			
 			</div>
 			<div id="heading">
-				<a href="index.php">TicketEase</a>
+				<a href="index.php">TicketEase!</a>
 			</div>
 			</div>
 		</div>
@@ -91,7 +91,7 @@ else if((!isset($_POST['byname'])) && (!isset($_POST['bynum'])))
 				<a class="brand" href="train.php" >FIND TRAIN</a>
 				<a class="brand" href="reservation.php">RESERVATION</a>
 				<a class="brand" href="profile.php">PROFILE</a>
-				<a class="brand" href="booking.php">BOOKING HISTORY</a>
+				<!-- <a class="brand" href="booking.php">BOOKING HISTORY</a> -->
 				</div>
 			</div>
 		</div>
