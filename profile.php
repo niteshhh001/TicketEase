@@ -72,7 +72,7 @@ $row=mysqli_fetch_array($result);
 			 ?>
 			</div>
 			<div id="heading">
-				<a href="index.php">Indian Railways</a>
+				<a href="index.php">TicketEase!</a>
 			</div>
 			</div>
 		</div>
