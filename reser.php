@@ -12,7 +12,7 @@ if(isset($_SESSION['name'])){}
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Reservation </title>
+	<title> Reser </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
