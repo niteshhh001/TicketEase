@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-	<title> TicketEase! </title>
+	<title> login.html </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +39,7 @@
 			</div>		
 			<div>
 			<div id="heading">
-				<a href="index.html">TicketEase</a>
+				<a href="index.html">TicketEase!</a>
 			</div>
 			</div>
 		</div>
@@ -60,7 +59,7 @@
 		</div>
 		
 		<!-- Login and signup -->
-		<div align="center">
+		<div class="center">
 		
 		<?php
 			 if(isset($_SESSION['name']))
@@ -69,10 +68,9 @@
 			 }
 			 else if($_SEESION['error']==15)
 			 {
-		?>
-				<div class="alert alert-error"><font size="5"> Please Login First..</font> 
+				<div class="alert alert-error"><font-size="5"> Please Login First..</font-size> 
 				</div>
-		<?	}
+	}
 		?>
 			
 		
