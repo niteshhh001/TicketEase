@@ -1,44 +1,7 @@
-<?php
-	session_start();
-	
-require('firstimport.php');
-if(isset($_SESSION['name'])){}
-	else{
-		header("location:login1.php");
-		
-	}
-$tbl_name="booking";
-
-mysqli_select_db($conn,"$db_name") or die("cannot select db");
-	$name1=$_SESSION['name'];
-	$sql="SELECT DISTINCT Tnumber,class,doj,DOB,fromstn,tostn,Status FROM $tbl_name WHERE uname='$name1' ORDER BY doj ASC";
-	$result=mysqli_query($conn,$sql);
-	$row=mysqli_fetch_array($result);
-
-
- 
-$tnum=$row['Tnumber'];
-$cl=$row['class'];
-$result=mysqli_query($conn,"SELECT * FROM train_list WHERE Number='$tnum'");
-
-$row=mysqli_fetch_array($result);
-$tname=$row['Name'];
-$result=mysqli_query($conn,$sql);
-
-			 if(isset($_SESSION['name']))
-			 {
-			 //echo "Welcome,".$_SESSION['name']."&nbsp;&nbsp;&nbsp;<a href=\"logout.php\" class=\"btn btn-info\">Logout</a>";
-			 }
-			 else
-			 {
-				$_SESSION['error']=15;
-				header("location:login1.php");
-			 } 
-?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Reservation </title>
+	<title> display </title>
 	<link rel="shortcut icon" href="images/favicon.png"></link>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -201,14 +164,40 @@ $result=mysqli_query($conn,$sql);
 </body>
 </html>	
 
+<?php
+	session_start();
+	
+require('firstimport.php');
+if(isset($_SESSION['name'])){}
+	else{
+		header("location:login1.php");
+		
+	}
+$tbl_name="booking";
+
+mysqli_select_db($conn,"$db_name") or die("cannot select db");
+	$name1=$_SESSION['name'];
+	$sql="SELECT DISTINCT Tnumber,class,doj,DOB,fromstn,tostn,Status FROM $tbl_name WHERE uname='$name1' ORDER BY doj ASC";
+	$result=mysqli_query($conn,$sql);
+	$row=mysqli_fetch_array($result);
 
 
+ 
+$tnum=$row['Tnumber'];
+$cl=$row['class'];
+$result=mysqli_query($conn,"SELECT * FROM train_list WHERE Number='$tnum'");
 
+$row=mysqli_fetch_array($result);
+$tname=$row['Name'];
+$result=mysqli_query($conn,$sql);
 
-
-
-
-
-
-
-
+			 if(isset($_SESSION['name']))
+			 {
+			 //echo "Welcome,".$_SESSION['name']."&nbsp;&nbsp;&nbsp;<a href=\"logout.php\" class=\"btn btn-info\">Logout</a>";
+			 }
+			 else
+			 {
+				$_SESSION['error']=15;
+				header("location:login1.php");
+			 } 
+?>
