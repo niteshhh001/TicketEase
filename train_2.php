@@ -78,7 +78,7 @@ else if((!isset($_POST['byname'])) && (!isset($_POST['bynum'])))
 		<!-- Header -->
 		<div class="header">
 			<div style="float:left;width:150px;">
-				<img src="images/logo.jpg"/>
+				<img src="images/logo.png"/>
 			</div>		
 			<div>
 			<div style="float:right; font-size:20px;margin-top:20px;">
@@ -103,7 +103,7 @@ else if((!isset($_POST['byname'])) && (!isset($_POST['bynum'])))
 				<a class="brand" href="train.php" >FIND TRAIN</a>
 				<a class="brand" href="reservation.php">RESERVATION</a>
 				<a class="brand" href="profile.php">PROFILE</a>
-				<!-- <a class="brand" href="booking.php">BOOKING HISTORY</a> -->
+				<a class="brand" href="booking.php">BOOKING HISTORY</a>
 				</div>
 			</div>
 		</div>
