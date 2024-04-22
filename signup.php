@@ -44,7 +44,7 @@
 		<!-- Header -->
 		<div class="header">
 			<div style="float:left;width:150px;">
-				<img src="images/logo.jpg"/>
+				<img src="images/logo.png"/>
 			</div>
 			<div id="heading">
 				<a href="index.php">TicketEase</a>
