@@ -31,19 +31,19 @@ session_start();
 	
 </head>
 <body>
-
+	<!-- <img class="bgimage" src="./images/4.jpg" alt="train"> -->
 	<div class="wrap">
 		<!-- Header -->
 		<div class="header">
 			<div style="float:left;width:150px;">
-				<img src="images/logo.jpg"/>
+				<img background=#ffffff src="images/logo.png"/>
 			</div>		
 			<div>
 				<div style="float:right; font-size:20px;margin-top:20px;">
 					<?php
 					if(isset($_SESSION['name']))	
 					{
-					echo "Welcome,".$_SESSION['name']."&nbsp;&nbsp;&nbsp;<a href=\"logout.php\" class=\"btn btn-info\">Logout</a>";
+					echo "Welcome, ".$_SESSION['name']."&nbsp;&nbsp;&nbsp;<a href=\"logout.php\" class=\"btn btn-info\">Logout</a>";
 					}
 					else
 					{
@@ -112,8 +112,6 @@ session_start();
 	
 </body>
 </html>
-
-
 
 <?php
 
