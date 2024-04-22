@@ -68,7 +68,7 @@ else if((!isset($_POST['from'])) && (!isset($_POST['to'])))
 		<!-- Header -->
 		<div class="header">
 			<div style="float:left;width:150px;">
-				<img src="images/logo.jpg"/>
+				<img src="images/logo.png"/>
 			</div>		
 			<div>
 			<div style="float:right; font-size:20px;margin-top:20px;">
