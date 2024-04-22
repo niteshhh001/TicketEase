@@ -1,3 +1,4 @@
+
 body{
 	width:100%;
 	background-image:url(../images/4.jpg);
@@ -12,7 +13,7 @@ body{
 	position:absolute;
 	top: 40px; left: 40px;
 	width:1024px;
-	background-color:#FAF9F6;
+	background-color:white;
 	padding:0 10px;
 	border:solid 1px;
 	-o-box-shadow: 10px 10px 5px #888;
